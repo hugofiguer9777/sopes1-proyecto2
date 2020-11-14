@@ -1,0 +1,42 @@
+version: "3"
+
+services:
+
+    serverpython:
+        image: hugofiguer/serverpython
+        container_name: "serverpython"
+        restart: on-failure
+        depends_on: 
+            - Rabbitmq
+            - Dbmongo
+            - Dbredis
+    
+    servergo:
+        image: hugofiguer/servergo
+        container_name: "servergo"
+        restart: on-failure
+        ports:
+            - 3000:3000
+        depends_on: 
+            - Rabbitmq
+            - Dbmongo
+            - Dbredis
+
+    Rabbitmq:
+        image: rabbitmq:3-management
+        container_name: "Rabbitmq"
+        ports:
+            - 5672:5672
+            - 15672:15672
+    
+    Dbmongo:
+        image: mongo
+        container_name: "Dbmongo"
+        ports:
+            - 27027:27017
+    
+    Dbredis:
+        image: redis
+        container_name: "Dbredis"
+        ports: 
+            - 6379:6379
