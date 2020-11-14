@@ -10,7 +10,7 @@ r = redis.Redis(host='35.192.86.242', port=6379) # Dbredis
 
 def main():
 
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='rabbitmq-service'))
     channel = connection.channel()
 
     channel.queue_declare(queue='covid-cases')
