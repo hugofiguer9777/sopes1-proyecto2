@@ -68,7 +68,7 @@ func nuevoCaso(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	conn, err := amqp.Dial("amqp://guest:guest@rabbitmq-service:5672/")
+	conn, err := amqp.Dial("amqp://guest:guest@Rabbitmq:5672/")
 	failOnError(err, "Fallo al conectar con RabbitMQ")
 	defer conn.Close()
 

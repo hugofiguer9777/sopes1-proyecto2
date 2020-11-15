@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  annotations:
+    kompose.cmd: kompose convert
+    kompose.version: 1.22.0 (955b78124)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: servergo
+  name: servergo
+spec:
+  containers:
+    - image: hugofiguer/servergo
+      name: servergo
+      ports:
+        - containerPort: 3000
+      resources: {}
+  restartPolicy: OnFailure
+status: {}
