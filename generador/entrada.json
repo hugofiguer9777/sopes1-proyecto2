@@ -1,0 +1,72 @@
+[
+    {
+        "Name": "Pablo Mendoza",
+        "Location": "Guatemala City",
+        "Age": 35,
+        "Infectedtype": "communitary",
+        "State": "asymptomatic"
+    },
+    {
+        "Name": "Jonás Santos",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Hugo Figueroa",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Carlos Carias",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Sergio Guoz",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Carlos Jimenez",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Julio De Leon",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Estuardo Gomez",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Victor Figueroa",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    },
+    {
+        "Name": "Jonatan Contreras",
+        "Location": "Guatemala City",
+        "Age": 23,
+        "Infectedtype": "communitary",
+        "State": "symptomatic"
+    }
+]
